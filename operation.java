@@ -1,4 +1,4 @@
-public class eoperation {
+public class operation {
     public static void main(String[] args) {
 
         int a = 25;
