@@ -22,5 +22,13 @@ public class loop{
                  System.out.println(j);
             }
         }
+
+        // fac of n
+        int a=sc.nextInt();
+        int fact = 1;
+        for(int k=1;k<=a;k++){
+            fact = fact * k;
+            
+        }System.out.println(fact);
     }
 }
