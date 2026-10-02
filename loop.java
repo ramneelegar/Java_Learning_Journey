@@ -30,5 +30,17 @@ public class loop{
             fact = fact * k;
             
         }System.out.println(fact);
+
+         //checking prime num
+        int p=sc.nextInt();  // not divisible only still its half not more then it
+        for(int l=2; l<=p/2; l++){
+            if(p % l == 0){
+                System.out.println("not prime");
+                break;
+            }else{
+                System.out.println(" prime");
+                break;
+            }
+        }
     }
 }
