@@ -11,5 +11,14 @@ public class jumpstatements {
                 break;
             }System.out.println(i);
         }
+
+        //continue
+        System.out.println("enter m");
+        int m=sc.nextInt();
+        for(int j=0; j<=m; j++){
+            if(j==4){
+                continue;
+            }System.out.println(j);
+        }
     }
 }
