@@ -13,5 +13,14 @@ public class loop{
             System.out.println(i);
 
         }
+
+        // even num from 1 to n
+        System.out.print("enter m  ");
+        int m = sc.nextInt();
+        for(int j=2; j<=m; j++){
+            if(j%2 ==0){
+                 System.out.println(j);
+            }
+        }
     }
 }
