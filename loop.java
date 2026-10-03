@@ -42,5 +42,14 @@ public class loop{
                 break;
             }
         }
+
+        
+        // nested loop
+        for(int c=1; c<=3; c++){  // row
+            for(int d=1; d<=3; d++){  //colunm
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
