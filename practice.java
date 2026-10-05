@@ -32,6 +32,10 @@ public class practice {
                 lowest = marks;
             }
         }
+        int final_total = total_marks - lowest;
+        int percentage = (final_total * 100) / 400;
+        System.out.println("total marks obtaine "+ total_marks);
+        System.out.println("percentage obtaine "+ percentage +" %");
 
     }
 }
