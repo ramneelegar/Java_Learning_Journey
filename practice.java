@@ -37,5 +37,21 @@ public class practice {
         System.out.println("total marks obtaine "+ total_marks);
         System.out.println("percentage obtaine "+ percentage +" %");
 
+        //lowercase to uppercase
+        System.out.println("lower enter to upper 1 esle 2");
+        int d = sc.nextInt();
+        if(d==1){
+            System.out.println("enter a char in lowercase");
+            char low = sc.next().charAt(0);
+            char upper = Character.toUpperCase(low);
+            System.out.println("this is the uppercase of ur char "+ upper);
+        }
+        else{
+            System.out.println("enter a char in uppercase");
+            char low = sc.next().charAt(0);
+            char upper = Character.toLowerCase(low);
+            System.out.println("this is the lowercase of ur char "+ upper);
+        }
+
     }
 }
