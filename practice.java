@@ -59,5 +59,20 @@ public class practice {
             System.out.println(n*i);
         }
 
+        // prime num from 1 to 100
+        int m= 2;
+        for(int i=2; i<=100; i++){
+            boolean prime = true;
+            for(int j=2; j<=i/2; j++){
+                if(i%j == 0){
+                    prime = false;
+                    break;
+                }
+            }
+            if(prime) {
+                System.out.println(i);
+            }
+        }
+        
     }
 }
