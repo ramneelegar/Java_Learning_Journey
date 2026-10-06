@@ -53,5 +53,11 @@ public class practice {
             System.out.println("this is the lowercase of ur char "+ upper);
         }
 
+        // 10 multiple of n
+        int n=2;
+        for(int i=1; i<=10; i++){
+            System.out.println(n*i);
+        }
+
     }
 }
