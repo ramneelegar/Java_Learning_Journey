@@ -73,6 +73,19 @@ public class practice {
                 System.out.println(i);
             }
         }
+
+        // sum from 1 to 20
+        int sum = 0;
+        for(int i=1; i<=20; i++){
+            sum =sum + i;
+        }System.out.println(sum);
+
+        // divisible by 7 from 50 to 100
+        for(int i=50; i<=100; i++){
+            if(i%7 == 0){
+                System.out.println(i);
+            }
+        }
         
     }
 }
