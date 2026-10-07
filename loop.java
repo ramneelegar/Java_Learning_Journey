@@ -58,5 +58,13 @@ public class loop{
             }System.out.println();
         }System.out.println();
         sc.close();
+
+        // while loop
+        int n =sc.nextInt();
+        // int i=1;
+        while( i<=5){
+            System.out.println("jai shree ram");
+            i++;
+        }
     }
 }
