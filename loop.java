@@ -66,5 +66,10 @@ public class loop{
             System.out.println("jai shree ram");
             i++;
         }
+
+        do{
+            System.out.println(i);
+            i++;
+        }while(i<=0);
     }
 }
