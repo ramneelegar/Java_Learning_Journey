@@ -1,4 +1,4 @@
-public class solid {
+public class pattern_s_rectangle {
     public static void main(String[] args) {
        
         System.out.println("solid rectangle");
