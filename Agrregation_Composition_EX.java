@@ -1,3 +1,14 @@
+class Human {
+
+    Heart h = new Heart(300, 120); // composition
+    
+    void hasA(Bike b) {
+        System.out.println(b.getBrand());
+        System.out.println(b.getMileage());
+    }
+
+}
+
 
 public class Agrregation_Composition_EX {
     public static void main(String[] args) {
