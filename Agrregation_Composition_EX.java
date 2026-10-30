@@ -1,3 +1,21 @@
+class Heart {
+    private double weight;
+    private int bp;
+
+    public Heart(double weight, int bp) {
+        this.weight = weight;
+        this.bp = bp;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public int getBp() {
+        return bp;
+    }
+}
+
 class Bike {
     private String brand;
     private int mileage;
