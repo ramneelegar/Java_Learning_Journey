@@ -13,6 +13,11 @@ class Employee {
         this.salary = salary;
     }
 
+    void display() {
+        System.out.println(id);
+        System.out.println(name);
+        System.out.println(salary);
+    }
 
 }
 
