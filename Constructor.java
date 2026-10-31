@@ -6,6 +6,14 @@ class Employee {
     Employee() {
         this(101, "Ram", 50000);
     }
+
+    Employee(int id, String name, double salary) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+    }
+
+
 }
 
 public class Constructor{
