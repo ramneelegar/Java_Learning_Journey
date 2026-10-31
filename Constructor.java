@@ -1,3 +1,13 @@
+class Employee {
+    int id;
+    String name;
+    double salary;
+
+    Employee() {
+        this(101, "Ram", 50000);
+    }
+}
+
 public class Constructor{
     public static void main(String[] args) {
 
