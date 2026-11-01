@@ -1,3 +1,8 @@
+class Student {
+    int id;
+    String name;
+}
+
 
 public class Constructor2 {
     public static void main(String[] args) {
