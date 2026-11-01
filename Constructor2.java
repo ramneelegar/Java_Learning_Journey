@@ -1,6 +1,11 @@
 class Student {
     int id;
     String name;
+
+    Student() {
+        id = 101;
+        name = "Ram";
+    }
 }
 
 
