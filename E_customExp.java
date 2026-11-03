@@ -18,4 +18,13 @@ class ATM{
         System.out.println("enter the PIN num");
         pin = sc.nextInt();
     }
+
+    void validate() throws InvaliduserException{
+        if(p== pin){
+            System.out.println("collect money");
+        }else{
+            InvaliduserException iue = new InvaliduserException();
+            throw iue;
+        }
+    }
 }
