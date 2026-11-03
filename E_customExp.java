@@ -12,4 +12,10 @@ public class E_customExp {
 class ATM{
     int p =1234;
     int pin;
+
+    void acceptInput(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the PIN num");
+        pin = sc.nextInt();
+    }
 }
