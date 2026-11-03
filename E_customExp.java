@@ -34,5 +34,28 @@ class InvaliduserException extends Exception{
     public String getMessage() {  // method which return the string
         return "Invalis Input.Try again.";
     }
+}
 
+class bank{
+    void permit(){
+        ATM atm = new ATM();  // accesing the atm  
+        try{
+            atm.acceptInput();  // method for exception 
+            atm.validate();
+        }catch(InvaliduserException iue1){
+            System.out.println(iue1.getMessage());
+            try{
+                atm.acceptInput();
+                atm.validate();
+            }catch(InvaliduserException iue2){
+                System.out.println(iue2.getMessage());
+                try{
+                    atm.acceptInput();
+                    atm.validate();
+                }catch(InvaliduserException iue3){
+                    System.err.println("Card blocked byee");
+                }
+            }
+        }
+    }
 }
