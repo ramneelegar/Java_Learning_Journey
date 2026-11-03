@@ -28,3 +28,11 @@ class ATM{
         }
     }
 }
+
+class InvaliduserException extends Exception{
+    @Override
+    public String getMessage() {  // method which return the string
+        return "Invalis Input.Try again.";
+    }
+
+}
