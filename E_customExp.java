@@ -8,3 +8,8 @@ public class E_customExp {
         b.permit();
     }
 }
+
+class ATM{
+    int p =1234;
+    int pin;
+}
