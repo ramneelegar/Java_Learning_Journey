@@ -25,6 +25,10 @@ public class E_multiCatchBlock {
             ar[index] = ele;
             System.out.println("Stored element: " + ar[index]);
         }
+
+        catch (ArithmeticException e) {
+            System.out.println(" div by zero is not allowed.");
+        }
     }
 }
 
