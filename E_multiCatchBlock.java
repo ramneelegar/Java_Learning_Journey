@@ -33,6 +33,10 @@ public class E_multiCatchBlock {
         catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("invalid array index entered.");
         }
+
+        catch (NegativeArraySizeException e) {
+            System.out.println("array size cannot be negative.");
+        }
     }
 }
 
