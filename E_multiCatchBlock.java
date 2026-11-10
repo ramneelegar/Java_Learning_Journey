@@ -38,6 +38,11 @@ public class E_multiCatchBlock {
         catch (NullPointerException e) {
             System.out.println("null reference encountered.");
         }
+        catch (Exception e) {
+            System.out.println("general error occurred: " + e);
+        }
+        System.out.println("Connection is termd");
+        
     }
 }
 
