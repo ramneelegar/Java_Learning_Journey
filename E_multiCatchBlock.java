@@ -29,6 +29,10 @@ public class E_multiCatchBlock {
         catch (ArithmeticException e) {
             System.out.println(" div by zero is not allowed.");
         }
+
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("invalid array index entered.");
+        }
     }
 }
 
