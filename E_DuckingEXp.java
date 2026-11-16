@@ -22,5 +22,9 @@ class demo1{
         int a = scan.nextInt();
         System.out.println("Enter the denominator:");
         int b = scan.nextInt();
+
+        int c = a / b;
+        System.out.println("Result: " + c);
+        System.out.println("Connection 2 is terminated");
     }
 }
