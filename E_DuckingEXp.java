@@ -17,5 +17,10 @@ class demo1{
     void fun1() throws Exception{
         System.out.println("Connection 2 established");
         Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter the numerator:");
+        int a = scan.nextInt();
+        System.out.println("Enter the denominator:");
+        int b = scan.nextInt();
     }
 }
