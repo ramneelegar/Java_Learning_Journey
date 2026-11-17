@@ -7,3 +7,10 @@ public class E_Propogation {
         System.out.println("Connection 1 terminated");
     }
 }
+
+class Demo3 {
+    void fun3() {
+        System.out.println("Connection 2 established");
+        Demo2 d2 = new Demo2();
+    }
+}
