@@ -21,5 +21,7 @@ class Demo2 {
     void fun2() {
         System.out.println("Connection 3 established");
         Demo1 d1 = new Demo1();
+        d1.fun1();
+        System.out.println("Connection 3 terminated");
     }
 }
