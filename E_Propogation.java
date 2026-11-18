@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class E_Propogation {
     public static void main(String[] args) {
         System.out.println("Connection 1 established");
@@ -23,5 +25,12 @@ class Demo2 {
         Demo1 d1 = new Demo1();
         d1.fun1();
         System.out.println("Connection 3 terminated");
+    }
+}
+
+class Demo1 {
+    void fun1() {
+        System.out.println("Connection 4 established");
+        Scanner scan = new Scanner(System.in);
     }
 }
