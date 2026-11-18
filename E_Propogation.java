@@ -37,5 +37,10 @@ class Demo1 {
         int a = scan.nextInt();
         System.out.println("Enter the denominator:");
         int b = scan.nextInt();
+
+        try {
+            int c = a / b;
+            System.out.println("Result: " + c);
+        }
     }
 }
