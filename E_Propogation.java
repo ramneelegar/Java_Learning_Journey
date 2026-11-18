@@ -32,5 +32,10 @@ class Demo1 {
     void fun1() {
         System.out.println("Connection 4 established");
         Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter the numerator:");
+        int a = scan.nextInt();
+        System.out.println("Enter the denominator:");
+        int b = scan.nextInt();
     }
 }
