@@ -15,7 +15,7 @@ class Demo3 {
         System.out.println("Connection 2 established");
         Demo2 d2 = new Demo2();
         d2.fun2();
-        System.out.println("Connection 2 terminated");
+        System.out.println("Connection 2 teminated");
     }
 }
 
