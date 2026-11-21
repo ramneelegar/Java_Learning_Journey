@@ -44,6 +44,6 @@ class Demo1 {
         }catch (ArithmeticException e) {
             System.out.println("Error: Division by zero is not allowed.");
         }
-
+        System.out.println("Connection 4 is terminated");
     }
 }
