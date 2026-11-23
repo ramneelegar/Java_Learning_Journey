@@ -9,5 +9,8 @@ public class E_ReThrowingExp{
         try {
             d1.fun1();
         }
+        catch (ArithmeticException e) {
+            System.out.println("Error: Division by zero is not allowed.");
+        }
     }
 }
