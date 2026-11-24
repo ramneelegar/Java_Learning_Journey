@@ -12,5 +12,7 @@ public class E_ReThrowingExp{
         catch (ArithmeticException e) {
             System.out.println("Error: Division by zero is not allowed.");
         }
+        System.out.println("Connection 1 terminated");
+
     }
 }
