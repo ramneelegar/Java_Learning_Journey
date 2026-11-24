@@ -16,3 +16,10 @@ public class E_ReThrowingExp{
 
     }
 }
+
+class demo{
+    void fun1(){
+        System.out.println("Connection 2 established");
+        Scanner scan = new Scanner(System.in);
+    }
+}
